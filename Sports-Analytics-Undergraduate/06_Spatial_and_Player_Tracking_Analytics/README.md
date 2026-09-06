@@ -1,17 +1,15 @@
 # Spatial & Player-Tracking Analytics
 
-**Scheduled:** Weeks 7 and 9 (see `00_Course_Admin/Course_Blueprint.md` for the full weekly schedule)
+**Scheduled:** Weeks 7 and 9
 **Level:** Undergraduate
 
 ## Overview
 
-Shot maps and heat maps as an accessible entry point, then player-tracking data methods (Voronoi/point-process concepts, per Kovalchik 2023, Annual Review of Statistics and Its Application). A running thread across the course, not confined to this module alone -- Faruk's stated emerging research interest.
-
-Depth: practical application, visualization, and communication outcomes.
+Shot maps and heat maps as an accessible entry point, then player-tracking data methods (Voronoi and point-process concepts, per Kovalchik 2023, Annual Review of Statistics and Its Application). A running thread across the course, not confined to this module alone.
 
 ## Status
 
-Not yet built. This module's folder structure is scaffolded per the ACLOS Module Standard (Lecture_Slides, Instructor_Notes, Student_Notes, Lab_Activity, Coding_Exercise, Interactive_Activity, Practice_Questions, AutoGraded_Assignment, Solutions, References, Videos). Content will be added module by module rather than all at once, per the ACLOS Complete Deliverable Rule.
+Not built yet. Modules are going up one at a time, roughly one per day, alternating between the undergraduate and graduate folders as each is finished, rather than all at once.
 
 ## Contents
 

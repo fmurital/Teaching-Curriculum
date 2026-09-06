@@ -1,8 +1,8 @@
 # Sports Analytics (Graduate)
 
-Course prefix/number, credit hours, and term are not yet finalized (placeholder: `XXXX`); update this README once confirmed.
+Course number, credit hours, and term are still being finalized.
 
-This is the **Graduate** version of the Sports Analytics course. It is a fully self-contained repository: everything needed to teach, learn, assess, and improve this course lives here. It shares a topic spine with the companion `Sports-Analytics-Undergraduate` repository but is independently maintained and does not depend on it, per ACLOS's Course Repository Governance.
+This is the **Graduate** version of the Sports Analytics course. It's a self-contained repository: everything needed to teach, learn, assess, and improve the course lives here, and it doesn't depend on the companion `Sports-Analytics-Undergraduate` folder or on anything outside this one.
 
 ## Navigation
 
@@ -32,4 +32,4 @@ This is the **Graduate** version of the Sports Analytics course. It is a fully s
 
 ## Status
 
-This repository is scaffolded per the ACLOS Mandatory GitHub Structure. Modules are being built one at a time; see each module's own README for its build status. Built under Faruk Muritala's ACLOS / Sports Analytics Teaching Operating System (STOS) skills.
+Modules are going up one at a time; each module's own README says whether it's built yet.
