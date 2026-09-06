@@ -1,17 +1,15 @@
 # Data Collection & Sports Data Sources
 
-**Scheduled:** Week 2 (see `00_Course_Admin/Course_Blueprint.md` for the full weekly schedule)
+**Scheduled:** Week 2
 **Level:** Undergraduate
 
 ## Overview
 
-Official league APIs/stats pages, the baseballr package and the Lahman database, Fangraphs Roster Resource, StatsBomb open data, and general data acquisition patterns.
-
-Depth: practical application, visualization, and communication outcomes.
+Official league APIs and stats pages, the baseballr package and the Lahman database, Fangraphs Roster Resource, StatsBomb open data, and general data acquisition patterns.
 
 ## Status
 
-Not yet built. This module's folder structure is scaffolded per the ACLOS Module Standard (Lecture_Slides, Instructor_Notes, Student_Notes, Lab_Activity, Coding_Exercise, Interactive_Activity, Practice_Questions, AutoGraded_Assignment, Solutions, References, Videos). Content will be added module by module rather than all at once, per the ACLOS Complete Deliverable Rule.
+Not built yet. Modules are going up one at a time, roughly one per day, alternating between the undergraduate and graduate folders as each is finished, rather than all at once.
 
 ## Contents
 
