@@ -1,6 +1,6 @@
 # Sports Analytics: Literature Review (Working Draft, v2)
 
-Purpose: ground this course in real, verified literature and current industry expectations, per ACLOS's primary rule against invented citations. This file is the canonical, living version -- update it here directly as sources are added or re-verified, rather than in any external document.
+Sources used or referenced across the course, by topic area.
 
 ## Track 1: Statistical Process Control (SPC) / Quality Monitoring Applied to Sport (course's signature research thread)
 
