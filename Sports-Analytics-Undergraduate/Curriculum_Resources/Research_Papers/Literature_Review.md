@@ -1,6 +1,6 @@
 # Sports Analytics: Literature Review (Working Draft, v2)
 
-Purpose: ground this course in real, verified literature and current industry expectations, per ACLOS's primary rule against invented citations. This is a working document; the canonical, most current version lives in the project as `claude/sports-analytics-literature-review.md` -- re-check there and against each primary source directly when it matters, rather than relying on this copy alone.
+Purpose: ground this course in real, verified literature and current industry expectations, per ACLOS's primary rule against invented citations. This file is the canonical, living version -- update it here directly as sources are added or re-verified, rather than in any external document.
 
 ## Track 1: Statistical Process Control (SPC) / Quality Monitoring Applied to Sport (course's signature research thread)
 
@@ -34,4 +34,4 @@ Purpose: ground this course in real, verified literature and current industry ex
 - UNC Charlotte, DTSC 1110 "Intro to Sports Statistics & Analytics" (undergraduate, broad survey course).
 - UNC-Chapel Hill, STOR 538 "Sports Analytics" (graduate/advanced-undergrad, R/Python, *Mathletics* textbook).
 
-Full detail, synthesis, and still-to-verify items: see the project doc `claude/sports-analytics-literature-review.md`.
+Items marked "not yet independently verified" above should be checked against the primary source before being cited directly in a lecture or assignment.
