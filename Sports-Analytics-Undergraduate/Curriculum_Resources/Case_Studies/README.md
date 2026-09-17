@@ -12,7 +12,7 @@ Constructs a control-charting / process-capability (Cp) technique on game-by-gam
 
 ## Case Study 2: NBA Reinjury Extension
 
-NBA-side extension of the same quality-monitoring methodology (manuscript and analysis notebook currently in Faruk's project files, not yet a public repository). Computes league-average performance metrics (PIE, Usage Rate, BPM, Net Rating) and pre/post-injury comparisons.
+NBA-side extension of the same quality-monitoring methodology (Tention, Muritala, Frankel & Brown, manuscript under review at *Basketball Studies*). Computes league-average performance metrics (PIE, Usage Rate, BPM, Net Rating) and pre/post-injury comparisons.
 
 ## Case Study 3: Braves Batter Monitoring (exploratory)
 
