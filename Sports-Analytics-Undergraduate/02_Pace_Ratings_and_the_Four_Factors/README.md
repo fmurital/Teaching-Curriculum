@@ -8,20 +8,14 @@
 
 Team pace, offensive and defensive ratings, and Dean Oliver's Four Factors framework (effective field goal percentage, turnover rate, offensive rebound rate, free throw rate) as implemented in `BasketballAnalyzeR`, computed on real NBA team-season data bundled with the package.
 
-## Status
-
-Planned -- structure only, content not yet built.
-
 ## Contents
 
 - `Lecture_Slides/`
-- `Instructor_Notes/`
 - `Student_Notes/`
 - `Lab_Activity/`
 - `Coding_Exercise/`
 - `Interactive_Activity/`
 - `Practice_Questions/`
 - `AutoGraded_Assignment/`
-- `Solutions/`
 - `References/`
 - `Videos/`

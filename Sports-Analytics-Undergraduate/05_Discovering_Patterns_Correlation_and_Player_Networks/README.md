@@ -8,20 +8,14 @@
 
 Correlation structure among performance variables, and network-based representations of on-court relationships between players such as assist networks and lineup co-occurrence.
 
-## Status
-
-Planned -- structure only, content not yet built.
-
 ## Contents
 
 - `Lecture_Slides/`
-- `Instructor_Notes/`
 - `Student_Notes/`
 - `Lab_Activity/`
 - `Coding_Exercise/`
 - `Interactive_Activity/`
 - `Practice_Questions/`
 - `AutoGraded_Assignment/`
-- `Solutions/`
 - `References/`
 - `Videos/`

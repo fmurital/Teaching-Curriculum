@@ -8,20 +8,14 @@
 
 Unsupervised learning for basketball roles: k-means and hierarchical clustering used to group players and teams by statistical profile rather than by traditional position labels.
 
-## Status
-
-Planned -- structure only, content not yet built.
-
 ## Contents
 
 - `Lecture_Slides/`
-- `Instructor_Notes/`
 - `Student_Notes/`
 - `Lab_Activity/`
 - `Coding_Exercise/`
 - `Interactive_Activity/`
 - `Practice_Questions/`
 - `AutoGraded_Assignment/`
-- `Solutions/`
 - `References/`
 - `Videos/`

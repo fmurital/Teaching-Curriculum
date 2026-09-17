@@ -1,3 +1,3 @@
 # Lecture Media
 
-Images, diagrams, and other media used across multiple lectures. Not yet built.
+Images and diagrams used across multiple lectures.

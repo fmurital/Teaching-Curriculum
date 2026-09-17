@@ -1,6 +1,6 @@
 # Case Studies (Sports Analytics)
 
-Per ACLOS's Course Repository Governance, this course repository does not depend on Faruk Muritala's research repositories, and their code is never copied in wholesale. Instead, each case study below is described here with a citation back to the original; when a lab or lecture actually uses the underlying method, that specific, cleaned-up code is built fresh for teaching purposes in the relevant module folder, not lifted directly.
+Each case study below is described here with a citation back to the original. When a lab or lecture uses the underlying method, the code is rebuilt for teaching purposes in the relevant module folder rather than copied in directly.
 
 ## Case Study 1: MLB Pitcher Reinjury Monitoring (Quality Monitoring module)
 

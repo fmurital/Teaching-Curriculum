@@ -8,20 +8,14 @@
 
 Building and reading shot charts from spatial shot-location data, and an honest look at what court geometry can and cannot tell us about shot selection and efficiency on its own.
 
-## Status
-
-Planned -- structure only, content not yet built.
-
 ## Contents
 
 - `Lecture_Slides/`
-- `Instructor_Notes/`
 - `Student_Notes/`
 - `Lab_Activity/`
 - `Coding_Exercise/`
 - `Interactive_Activity/`
 - `Practice_Questions/`
 - `AutoGraded_Assignment/`
-- `Solutions/`
 - `References/`
 - `Videos/`

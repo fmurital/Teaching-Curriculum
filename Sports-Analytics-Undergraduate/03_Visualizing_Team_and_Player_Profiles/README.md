@@ -8,20 +8,14 @@
 
 Bar-line plots, radial plots, scatter plots, and bubble plots for comparing teams and players side by side, plus variability and inequality analysis applied to scoring and role distribution within a roster.
 
-## Status
-
-Planned -- structure only, content not yet built.
-
 ## Contents
 
 - `Lecture_Slides/`
-- `Instructor_Notes/`
 - `Student_Notes/`
 - `Lab_Activity/`
 - `Coding_Exercise/`
 - `Interactive_Activity/`
 - `Practice_Questions/`
 - `AutoGraded_Assignment/`
-- `Solutions/`
 - `References/`
 - `Videos/`
