@@ -6,11 +6,11 @@
 
 ## Overview
 
-Splitting performance by game situation, using the textbook's Celtics and Warriors clutch-performance case studies as the worked examples.
-
-## Status
-
-Not built yet. Modules are going up one at a time, alongside the undergraduate course, following `Sports-Analytics-Undergraduate/00_Course_Admin/Module_Build_Playbook.md` (its rules apply to this course too -- see that file's graduate-specific section).
+Splitting real team and player performance by game situation (fewer
+than five minutes remaining, score within five points), reproducing the
+textbook's Chapter 3 clutch-splits methodology on real 2017-18 NBA
+playoff play-by-play data, using the Boston Celtics and Golden State
+Warriors as the two case-study teams.
 
 ## Contents
 
