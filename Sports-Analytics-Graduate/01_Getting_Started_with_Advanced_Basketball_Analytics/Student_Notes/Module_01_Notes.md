@@ -2,15 +2,15 @@
 
 **Graduate — Sports Analytics** | Textbook: Zuccolotto, Manisera, & Sandri (2026), *Advanced Basketball Data Science: With Applications in R*, CRC Press.
 
-## Where this course picks up
+## Where this course starts
 
-This course assumes the tools from the undergraduate course: R, RStudio, and the `BasketballAnalyzeR` package (Zuccolotto & Manisera, 2020). If any of that setup is rusty, revisit the undergraduate Module 01 lab before this session.
+This course runs on R, RStudio, and the `BasketballAnalyzeR` package (Zuccolotto & Manisera, 2020), the same toolkit the textbook builds on throughout. If any part of that setup is unfamiliar, this session covers it from the ground up: installing the package, loading its bundled datasets, and running a first real pipeline against them.
 
-What is new here is the level of the questions we ask. The undergraduate course used box-score data (Pace, Four Factors, player efficiency) to describe what happened in a game or a season. This course adds three things the textbook builds toward across its nine chapters: statistical and machine-learning models fit to that data (CART, random forests, logistic regression), play-by-play and lineup-level analysis instead of only season totals, and — starting with player tracking and pose estimation in later chapters — motion data that box scores never capture at all.
+What sets the level of the questions we ask in this course is this: box-score data (Pace, the Four Factors, player efficiency) describes what happened in a game or a season, one number at a time. This course adds three things the textbook builds toward across its nine chapters: statistical and machine-learning models fit to that data (CART, random forests, logistic regression), play-by-play and lineup-level analysis instead of only season totals, and — starting with player tracking and pose estimation in later chapters — motion data that box scores never capture at all.
 
 ## Two workflow habits from Chapter 1
 
-**`pacman`.** The book loads its packages once with `pacman::p_load(...)` instead of separate `install.packages()` and `library()` calls for each one. It installs a package only if it is missing, then loads it. This matters more in this course because we will accumulate a longer list of dependencies (`network`, `sna`, `GGally`, `ggnetwork`, and later, packages for CART and tracking data) than the undergraduate course needed.
+**`pacman`.** The book loads its packages once with `pacman::p_load(...)` instead of separate `install.packages()` and `library()` calls for each one. It installs a package only if it is missing, then loads it. This matters more in this course because we will accumulate a longer list of dependencies (`network`, `sna`, `GGally`, `ggnetwork`, and later, packages for CART and tracking data) than a single-package course would need.
 
 **`conflicted`.** `dplyr` and base R (and other tidyverse packages) both define functions with the same names, most commonly `filter()` and `arrange()`. Loading both silently lets one mask the other, and a masked function can produce output that looks fine but is not what you intended. The book's fix is `conflicted::conflict_prefer("filter", "dplyr")` and the same for `arrange`, made explicit rather than left to whichever package loaded last.
 

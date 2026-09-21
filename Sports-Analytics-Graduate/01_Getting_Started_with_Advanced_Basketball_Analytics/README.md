@@ -6,11 +6,11 @@
 
 ## Overview
 
-What this course adds on top of the undergraduate course, the R packages and tooling used throughout (BasketballAnalyzeR and the tools introduced in Advanced Basketball Data Science), and a first look at where injury-risk questions come back later in the course.
+Course orientation: the statistical and machine-learning questions this course adds on top of basic box-score description, the R packages and tooling used throughout (`BasketballAnalyzeR` and the tools introduced in *Advanced Basketball Data Science*), and a first look at where injury-risk questions come back later in the course.
 
 ## Status
 
-Not built yet. Modules are going up one at a time, alongside the undergraduate course, following `Sports-Analytics-Undergraduate/00_Course_Admin/Module_Build_Playbook.md` (its rules apply to this course too -- see that file's graduate-specific section).
+Built.
 
 ## Contents
 

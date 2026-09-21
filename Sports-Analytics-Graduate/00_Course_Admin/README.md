@@ -1,8 +1,8 @@
-# Course Administration (Graduate)
+# Course Administration
 
-Placeholder for: syllabus, course policies, academic-integrity statement, accessibility statement, and term-specific logistics (meeting time, room, office hours). To be completed once the actual course number, term, and section are confirmed.
-
-See `Course_Blueprint.md` in this folder for the full module map, the PhD/injury-detection track, and the standing rules this course follows.
+- [Syllabus](Syllabus.md) -- instructor info, learning outcomes, required materials, grading, and policies.
+- [Course Schedule](Schedule.md) -- session-by-session calendar.
+- [Course Blueprint](Course_Blueprint.md) -- the full module map, the PhD/injury-detection track, and the standing rules this course follows.
 
 ## Textbook
 

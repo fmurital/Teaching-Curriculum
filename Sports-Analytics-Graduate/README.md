@@ -1,34 +1,35 @@
 # Sports Analytics (Graduate)
 
-Course number, credit hours, and term are still being finalized.
+3 Class Hours, 0 Laboratory Hours, 3 Credit Hours. Section, term, and meeting time: TBA.
 
-This is the **Graduate** version of the Sports Analytics course. It's a self-contained repository: everything needed to teach, learn, assess, and improve the course lives here, and it doesn't depend on the companion `Sports-Analytics-Undergraduate` folder or on anything outside this one.
+Textbook: Zuccolotto, P., Manisera, M., & Sandri, M. (2026). *Advanced Basketball Data Science: With Applications in R*. Chapman & Hall/CRC Data Science Series, CRC Press.
 
 ## Navigation
 
-- [Course Information](00_Course_Admin/README.md)
-- [Course Blueprint](00_Course_Admin/Course_Blueprint.md)
+- [Syllabus](00_Course_Admin/Syllabus.md)
+- [Course Schedule](00_Course_Admin/Schedule.md)
 - [Modules](#modules)
 - [Assignments](Assignments/)
 - [Midterm Project](Midterm_Project/)
-- [Final Project](Final_Project/)
-- [Exams](Exams/)
+- [Final Project / Exam](Final_Project_Exam/)
 - [Resources](Curriculum_Resources/)
-- [Assessment Materials](Course_Assessment/)
-- [Continuous Improvement Documentation](00_Course_Admin/Continuous_Improvement.md)
 
 ## Modules
 
-1. [Introduction to Sports Analytics](01_Introduction_to_Sports_Analytics/)
-2. [Data Collection & Sports Data Sources](02_Data_Collection_and_Sports_Data_Sources/)
-3. [Exploratory Data Analysis & Visualization](03_EDA_and_Visualization/)
-4. [Statistical Modeling: Regression and Classification](04_Statistical_Modeling_Regression_and_Classification/)
-5. [Player and Team Evaluation Metrics](05_Player_and_Team_Evaluation_Metrics/)
-6. [Spatial & Player-Tracking Analytics](06_Spatial_and_Player_Tracking_Analytics/)
-7. [Quality Monitoring & Process Control in Sports](07_Quality_Monitoring_and_Process_Control_in_Sports/) (signature module)
-8. [Simulation & Decision Making](08_Simulation_and_Decision_Making/)
-9. [Network Analysis in Sports](09_Network_Analysis_in_Sports/)
-10. [Communication & Ethics](10_Communication_and_Ethics/)
+1. [Getting Started with Advanced Basketball Analytics](01_Getting_Started_with_Advanced_Basketball_Analytics/)
+2. [Beyond Individual Skills: Lineups and Combinations](02_Beyond_Individual_Skills_Lineups_and_Combinations/)
+3. [Clutch Performance and Situational Splits](03_Clutch_Performance_and_Situational_Splits/)
+4. [Season Segments and Final Rankings](04_Season_Segments_and_Final_Rankings/)
+5. [Spatial Dynamics and Tracking Data](05_Spatial_Dynamics_and_Tracking_Data/)
+6. [Athletic Motion and Pose Estimation](06_Athletic_Motion_and_Pose_Estimation/)
+7. [Ball Trajectories and Object Detection](07_Ball_Trajectories_and_Object_Detection/)
+8. [Performance Maps and Court Segmentation](08_Performance_Maps_and_Court_Segmentation/)
+9. [Machine Learning Models for Scoring Probability](09_Machine_Learning_Models_for_Scoring_Probability/)
+10. [Injury Risk Signature Module (PhD Track)](10_Injury_Risk_Signature_Module_PhD_Track/)
+
+## Grading
+
+Quizzes, three course-wide assignments, a midterm project, and a final project. The final project also serves as the course's final exam -- there is no separate exam. See the [syllabus](00_Course_Admin/Syllabus.md) for weights and policies.
 
 ## Status
 
