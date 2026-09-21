@@ -4,7 +4,7 @@ This file is the current, authoritative module map for the graduate Sports Analy
 
 Primary source: Zuccolotto, P., Manisera, M., & Sandri, M. (2026). *Advanced Basketball Data Science: With Applications in R*. CRC Press / Chapman & Hall (Data Science Series). ISBN 978-1-032-50217-5 (hbk), 978-1-032-50221-2 (pbk), 978-1-003-39744-1 (ebk). DOI 10.1201/9781003397441.
 
-This course is graduate credit level and is not restricted to the textbook. Where a real, current, verifiable journal article adds something the textbook does not, it is worked into the relevant module, called out by name on the slide, and cited in that module's speaker notes and References file. This matters more here than in the undergraduate course, since graduate students may take on larger independent projects.
+This course is graduate credit level and is not restricted to the textbook. Where a real, current, verifiable journal article adds something the textbook does not, it is worked into the relevant module, called out by name on the slide, and cited in that module's speaker notes and References file. This matters more here than at other levels, since graduate students may take on larger independent projects.
 
 ## PhD track: injury detection
 
@@ -14,11 +14,11 @@ Running through the course, wherever a chapter's technique genuinely supports it
 - West et al. (2026). *Journal of Strength and Conditioning Research (JSCR)* -- statistical process control for sport-science data quality.
 - Kanwal et al. (2025) -- critique of the Acute:Chronic Workload Ratio (ACWR).
 
-Full citations live in `Curriculum_Resources/Research_Papers/Literature_Review.md` (mirrors the undergraduate course's file; extend it here rather than duplicating a separate list, unless the graduate module needs graduate-specific framing).
+Full citations live in `Curriculum_Resources/Research_Papers/Literature_Review.md`.
 
 ## Module map
 
-1. `01_Getting_Started_with_Advanced_Basketball_Analytics` -- Ch. 1, Getting started. Course orientation at graduate level: what "advanced" adds over the undergraduate course, the R packages and tooling used throughout, and a first look at where injury-detection questions will come back later in the course.
+1. `01_Getting_Started_with_Advanced_Basketball_Analytics` -- Ch. 1, Getting started. Course orientation: what this course's advanced methods add on top of basic box-score analysis, the R packages and tooling used throughout, and a first look at where injury-detection questions will come back later in the course.
 2. `02_Beyond_Individual_Skills_Lineups_and_Combinations` -- Ch. 2, Beyond individual skills: lineups and player combinations (e.g. the Splash Brothers case study in the text).
 3. `03_Clutch_Performance_and_Situational_Splits` -- Ch. 3, Clutch splits (Celtics, Warriors case studies in the text).
 4. `04_Season_Segments_and_Final_Rankings` -- Ch. 4, Season segments and final rankings.
@@ -31,11 +31,11 @@ Full citations live in `Curriculum_Resources/Research_Papers/Literature_Review.m
 
 ## Standing rules
 
-This course follows every standing rule in `Sports-Analytics-Undergraduate/00_Course_Admin/Module_Build_Playbook.md` (voice, video/visual engagement, no on-slide timing, the recurring Upcoming/announcements slide, live-coding cues, notes-based discussion points, no slide-count ceiling, real-data/real-citation grounding, no em dashes, no AI-process captions). Section 8 of that playbook covers what is specific to the graduate track. Read the playbook before building any graduate module; do not treat this blueprint as a substitute for it.
+This course follows every standing rule in the shared Module Build Playbook maintained in the private repo's course-admin folder (voice, video/visual engagement, no on-slide timing, the recurring Upcoming/announcements slide, live-coding cues, notes-based discussion points, no slide-count ceiling, real-data/real-citation grounding, no em dashes, no AI-process captions, course independence). The playbook's graduate-specific section covers what is specific to this track -- most importantly, that graduate videos are real game footage / concept explainers only (no coding-tutorial videos), that this course is written and read as fully independent (no reference anywhere to any other course), and that assignments are course-wide (see `Assignments/`, `Midterm_Project/`, `Final_Project_Exam/`), not per module. Read the playbook before building any graduate module; do not treat this blueprint as a substitute for it.
 
 ## Repo split
 
-Same pattern as the undergraduate course: the public repo (`Teaching-Curriculum`) carries everything students see. The private repo (`Teaching-Curriculum-Private`) carries `Instructor_Notes/` and `Solutions/` for each module, plus the shared `pptx_template/` and this course's own admin files. The ten module folders in the public repo currently also contain empty `Instructor_Notes/`/`Solutions/` placeholders left over from the original skeleton; those belong only in the private repo and can be deleted from the public repo whenever convenient -- they hold no content, so there is nothing to lose by removing them.
+Same pattern used throughout: the public repo (`Teaching-Curriculum`) carries everything students see. The private repo (`Teaching-Curriculum-Private`) carries `Instructor_Notes/` and `Solutions/` for each module, plus the shared `pptx_template/` and this course's own admin files. The ten module folders in the public repo currently also contain empty `Instructor_Notes/`/`Solutions/` placeholders left over from the original skeleton; those belong only in the private repo and can be deleted from the public repo whenever convenient -- they hold no content, so there is nothing to lose by removing them.
 
 ## Textbook access
 

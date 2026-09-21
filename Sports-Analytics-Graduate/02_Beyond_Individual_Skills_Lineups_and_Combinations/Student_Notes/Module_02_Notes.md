@@ -22,7 +22,7 @@ The shot-distance density plots told a similar story with the numbers: Kevon Loo
 
 ## Pace, Ratings, and the Four Factors, one level down
 
-None of the formulas from the undergraduate course changed. Effective Field Goal Percentage, Turnover Ratio, Rebound Percentage, and Free Throw Rate (the Four Factors, Kubatko et al., 2007) and Pace/Offensive Rating/Defensive Rating are computed exactly the same way. What changed is the unit: instead of a whole team or a whole player, each formula is now applied to one five-man lineup at a time, using `fourfactors()` on the lineup-level box scores built with `TOPboxes()`.
+The formulas do not change from what a full-team or full-player analysis already uses: Effective Field Goal Percentage, Turnover Ratio, Rebound Percentage, and Free Throw Rate (the Four Factors, Kubatko et al., 2007) and Pace/Offensive Rating/Defensive Rating are computed exactly the same way at any level. What changes here is the unit: instead of a whole team or a whole player, each formula is now applied to one five-man lineup at a time, using `fourfactors()` on the lineup-level box scores built with `TOPboxes()`.
 
 The real result for the eight Warriors lineups: Wiggins + Green + Poole + Porter Jr. + Curry had both the fastest Pace (about 2.24 possessions per minute) and the best Offensive Rating (about 124) of the eight. Wiggins + Green + Poole + Looney + Thompson had the worst Defensive Rating (opponents scored about 130 per 100 possessions against that group). Neither number alone settles which lineup a coach should trust in a close game; that tension is exactly what a real lineup decision has to weigh.
 

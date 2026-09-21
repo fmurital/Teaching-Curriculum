@@ -10,7 +10,7 @@ Moving past individual box-score stats to lineup- and combination-level analysis
 
 ## Status
 
-Not built yet. Modules are going up one at a time, alongside the undergraduate course, following `Sports-Analytics-Undergraduate/00_Course_Admin/Module_Build_Playbook.md` (its rules apply to this course too -- see that file's graduate-specific section).
+Built.
 
 ## Contents
 
