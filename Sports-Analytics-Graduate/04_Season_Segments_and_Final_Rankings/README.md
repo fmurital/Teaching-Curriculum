@@ -6,11 +6,12 @@
 
 ## Overview
 
-Tracking how team performance shifts across segments of a season and how that connects to final standings.
-
-## Status
-
-Not built yet. Modules are going up one at a time, alongside the undergraduate course, following `Sports-Analytics-Undergraduate/00_Course_Admin/Module_Build_Playbook.md` (its rules apply to this course too -- see that file's graduate-specific section).
+Splitting a real, complete NBA season into two segments and asking
+whether a team's early-season form predicts its final record,
+reproducing the textbook's Chapter 4 season-segments and
+opponent-adjusted-rating methodology on Golden State's real, complete
+2017-18 regular season, including a genuine methodological finding
+about when opponent adjustment breaks down on a hub-and-spoke schedule.
 
 ## Contents
 
