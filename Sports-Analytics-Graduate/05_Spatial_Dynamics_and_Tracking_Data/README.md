@@ -6,11 +6,7 @@
 
 ## Overview
 
-Animated spatial plots, Voronoi diagrams, convex hulls, and gravity/distraction metrics built from player-tracking data.
-
-## Status
-
-Not built yet. Modules are going up one at a time, alongside the undergraduate course, following `Sports-Analytics-Undergraduate/00_Course_Admin/Module_Build_Playbook.md` (its rules apply to this course too -- see that file's graduate-specific section).
+Convex hulls and Voronoi tessellation applied to real 2017-18 NBA shot-location data to map out individual players' real shot territories and floor coverage, a real kernel-density comparison of shot distribution shape, and an honest discussion of what the textbook's tracking-based Gravity and distraction metrics would add if proprietary optical tracking data were available, grounded in the NBA's own real Gravity stat and a real, current peer-reviewed paper on tracking-based defensive positioning.
 
 ## Contents
 
