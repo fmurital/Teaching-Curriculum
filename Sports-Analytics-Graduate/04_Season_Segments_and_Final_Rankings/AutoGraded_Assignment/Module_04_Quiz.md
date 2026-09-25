@@ -8,7 +8,6 @@ A. Home games versus away games
 B. Games 1-41 versus games 42-82, chronologically
 C. Wins versus losses
 D. Games decided by more than ten points versus everything else
-**Correct answer: B**
 
 **Q2.** Golden State's real record and net rating moved from the first
 real season segment to the second real season segment in which
@@ -18,7 +17,6 @@ B. Record stayed exactly the same; net rating improved
 C. Record slipped slightly (30-11 to 28-13) and net rating fell (plus
    9.86 to plus 5.47), driven mainly by a real rise in defensive rating
 D. Both offense and defense improved equally
-**Correct answer: C**
 
 **Q3.** An adjusted offensive or defensive rating (`AORtg`/`ADRtg`), as
 implemented in this module, differs from a plain offensive or
@@ -28,7 +26,6 @@ B. Corrects each team's rating for the strength of the specific
    opponents it played
 C. Ignores defense entirely
 D. Is only defined for a full 82-game season
-**Correct answer: B**
 
 **Q4.** In this module's real data, Golden State's `AORtg` and `ADRtg`
 compute to:
@@ -36,7 +33,6 @@ A. Values close to the full-season NBA average
 B. Exactly 0.00, in every segment
 C. Negative numbers only
 D. Undefined (`NA`)
-**Correct answer: B**
 
 **Q5.** The real reason Golden State's adjusted rating collapses the
 way it does is:
@@ -47,7 +43,6 @@ C. Almost every GSW opponent in this dataset appears only in its own
    GSW's number) collapses to being identical to GSW's own performance
    against them, canceling the adjustment out
 D. The `AdjRtg()` formula does not work for teams with winning records
-**Correct answer: C**
 
 **Q6.** Why does a team like Portland, which also only appears in this
 dataset playing GSW, still receive a real, non-zero adjusted rating?
@@ -57,7 +52,6 @@ A. Portland is adjusted against GSW's defensive rating, which is itself
 B. Portland's games are excluded from the adjustment entirely
 C. Portland's adjusted rating is also exactly 0.00
 D. The formula treats home and away teams differently
-**Correct answer: A**
 
 **Q7.** The real CART tree fit on the other teams' segment-1 adjusted
 ratings, predicting real wins in this sample, produced a first split
@@ -66,7 +60,6 @@ A. `ADRtg1 < 0`
 B. Team name
 C. `AORtg1 < -0.015`
 D. Number of games played
-**Correct answer: C**
 
 **Q8.** This module's own textbook chapter and Kubatko et al. (2007)
 are both cited for:
@@ -76,4 +69,3 @@ B. The Offensive/Defensive Rating concept that adjusted ratings build
    reproduces
 C. NBA scheduling rules
 D. The Gini coefficient
-**Correct answer: B**
