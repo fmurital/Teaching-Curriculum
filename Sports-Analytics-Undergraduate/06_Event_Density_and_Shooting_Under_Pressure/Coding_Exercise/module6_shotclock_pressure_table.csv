@@ -1,0 +1,4 @@
+"clock_bucket","attempts","makes","fg_pct"
+"Early clock (<12s elapsed)",7346,3643,49.6
+"Mid clock (12-17s elapsed)",4157,1952,47
+"Late clock, high pressure (18s+ elapsed)",2852,1210,42.4
