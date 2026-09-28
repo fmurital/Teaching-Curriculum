@@ -1,0 +1,45 @@
+Total real play-by-play events in PbP.BDB (2017-18): 37430 
+Real field goal attempts with a real shot_distance recorded: 14355 
+Real field goal attempts with a valid numeric real shot_distance: 14355 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00    3.00   14.00   13.96   25.00   82.00 
+# A tibble: 15 × 3
+   dist_bucket     n real_fg_pct
+   <fct>       <int>       <dbl>
+ 1 [0,2)        1740        74.2
+ 2 [2,4)        2447        61  
+ 3 [4,6)         582        36.9
+ 4 [6,8)         515        41.9
+ 5 [8,10)        502        37.3
+ 6 [10,12)       580        40.3
+ 7 [12,14)       645        46  
+ 8 [14,16)       547        43.1
+ 9 [16,18)       641        43.1
+10 [18,20)       739        42.8
+11 [20,22)       473        40.6
+12 [22,24)       809        38.3
+13 [24,26)      1657        39.6
+14 [26,28)      2015        37  
+15 [28,30)       330        34.5
+                        shot_type distance_ft distance_m theta_min_deg  v_min_ms v_min_mph
+1                      At the rim        4.00     1.2192      63.43495  5.184917  11.59835
+2          Real mid-range (10 ft)       10.00     3.0480      53.34962  7.813835  17.47908
+3         Free throw line (15 ft)       15.00     4.5720      50.65497  9.513071  21.28017
+4             Long two (19.75 ft)       19.75     6.0198      49.31857 10.893337  24.36774
+5 NBA three-point line (23.75 ft)       23.75     7.2390      48.59962 11.935163  26.69824
+6              Deep three (28 ft)       28.00     8.5344      48.05775 12.951947  28.97273
+                        shot_type distance_ft real_theoretical_minimum_speed_angle_deg
+1         Free throw line (15 ft)       15.00                                 50.65497
+2 NBA three-point line (23.75 ft)       23.75                                 48.59962
+  real_published_launch_angle_deg_7ft_release
+1                                        55.2
+2                                        64.1
+                        shot_type distance_ft theta_min_deg v_min_mph time_of_flight_s
+1                      At the rim        4.00      63.43495  11.59835        0.5257971
+2          Real mid-range (10 ft)       10.00      53.34962  17.47908        0.6534719
+3         Free throw line (15 ft)       15.00      50.65497  21.28017        0.7580604
+4             Long two (19.75 ft)       19.75      49.31857  24.36774        0.8477575
+5 NBA three-point line (23.75 ft)       23.75      48.59962  26.69824        0.9171505
+6              Deep three (28 ft)       28.00      48.05775  28.97273        0.9858565
+
+DONE MODULE 7 (GRADUATE) COMPUTATION

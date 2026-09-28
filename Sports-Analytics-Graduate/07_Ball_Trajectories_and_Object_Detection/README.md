@@ -6,11 +6,13 @@
 
 ## Overview
 
-YOLO-based object detection applied to the ball itself, and how trajectory data gets used to study and improve shooting.
-
-## Status
-
-Not built yet. Modules are going up one at a time, alongside the undergraduate course, following `Sports-Analytics-Undergraduate/00_Course_Admin/Module_Build_Playbook.md` (its rules apply to this course too -- see that file's graduate-specific section).
+Computer vision applied to the ball rather than the player: how YOLO-based
+object detection finds and tracks a small, fast, frequently occluded
+basketball in real video (real 2025 precision, recall, and mAP figures from
+a current peer-reviewed paper), the real classical-mechanics physics of a
+shot's minimum-speed trajectory, a real, honest gap between that theoretical
+minimum and how real shooters actually launch the ball, and a real,
+data-driven connection back to 2017-18 field goal percentage by distance.
 
 ## Contents
 
