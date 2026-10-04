@@ -1,0 +1,3 @@
+"Model","Terminal_Nodes","Training_Accuracy_Pct"
+"CART, Cartesian (x, y)",4,62.19
+"CART, Polar (distance, angle)",2,62.32

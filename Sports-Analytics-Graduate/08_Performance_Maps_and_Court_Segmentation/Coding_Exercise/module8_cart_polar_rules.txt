@@ -1,0 +1,37 @@
+
+> print(cart_polar)
+n= 14354 
+
+node), split, n, loss, yval, (yprob)
+      * denotes terminal node
+
+1) root 14354 6805 0 (0.5259161 0.4740839)  
+  2) shot_distance>=2.5 10896 4378 0 (0.5982012 0.4017988) *
+  3) shot_distance< 2.5 3458 1031 1 (0.2981492 0.7018508) *
+
+> cat("\ncptable:\n")
+
+cptable:
+
+> print(printcp(cart_polar))
+
+Classification tree:
+rpart(formula = made ~ shot_distance + angle_deg, data = sh, 
+    method = "class", control = rpart.control(maxdepth = 4, cp = 0.001, 
+        minbucket = 150))
+
+Variables actually used in tree construction:
+[1] shot_distance
+
+Root node error: 6805/14354 = 0.47408
+
+n= 14354 
+
+       CP nsplit rel error  xerror      xstd
+1 0.20514      0   1.00000 1.00000 0.0087911
+2 0.00100      1   0.79486 0.79486 0.0085317
+         CP nsplit rel error    xerror        xstd
+1 0.2051433      0 1.0000000 1.0000000 0.008791119
+2 0.0010000      1 0.7948567 0.7948567 0.008531670
+
+> sink()
