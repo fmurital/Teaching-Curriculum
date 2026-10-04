@@ -6,11 +6,7 @@
 
 ## Overview
 
-Sector maps, shot charts, and CART-based court segmentation for mapping where performance actually happens on the floor.
-
-## Status
-
-Not built yet. Modules are going up one at a time, alongside the undergraduate course, following `Sports-Analytics-Undergraduate/00_Course_Admin/Module_Build_Playbook.md` (its rules apply to this course too -- see that file's graduate-specific section).
+Sector-based performance maps, a real shot chart, and two real CART (Classification and Regression Tree) scoring probability maps, one built on Cartesian shot coordinates and one on polar shot coordinates, built from real 2017-18 NBA play-by-play shot data to show where scoring actually happens on the floor and why.
 
 ## Contents
 

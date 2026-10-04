@@ -1,0 +1,44 @@
+
+> print(cart_xy)
+n= 14354 
+
+node), split, n, loss, yval, (yprob)
+      * denotes terminal node
+
+ 1) root 14354 6805 0 (0.5259161 0.4740839)  
+   2) y_rel>=1.9 9888 3967 0 (0.5988066 0.4011934) *
+   3) y_rel< 1.9 4466 1628 1 (0.3645320 0.6354680)  
+     6) x_rel>=2.15 646  265 0 (0.5897833 0.4102167) *
+     7) x_rel< 2.15 3820 1247 1 (0.3264398 0.6735602)  
+      14) x_rel< -1.95 536  242 0 (0.5485075 0.4514925) *
+      15) x_rel>=-1.95 3284  953 1 (0.2901949 0.7098051) *
+
+> cat("\ncptable:\n")
+
+cptable:
+
+> print(printcp(cart_xy))
+
+Classification tree:
+rpart(formula = made ~ x_rel + y_rel, data = sh, method = "class", 
+    control = rpart.control(maxdepth = 4, cp = 0.001, minbucket = 150))
+
+Variables actually used in tree construction:
+[1] x_rel y_rel
+
+Root node error: 6805/14354 = 0.47408
+
+n= 14354 
+
+         CP nsplit rel error  xerror      xstd
+1 0.1778104      0   1.00000 1.00000 0.0087911
+2 0.0170463      1   0.82219 0.82219 0.0085864
+3 0.0076414      2   0.80514 0.80794 0.0085587
+4 0.0010000      3   0.79750 0.79941 0.0085412
+          CP nsplit rel error    xerror        xstd
+1 0.17781043      0 1.0000000 1.0000000 0.008791119
+2 0.01704629      1 0.8221896 0.8221896 0.008586431
+3 0.00764144      2 0.8051433 0.8079353 0.008558676
+4 0.00100000      3 0.7975018 0.7994122 0.008541245
+
+> sink()
