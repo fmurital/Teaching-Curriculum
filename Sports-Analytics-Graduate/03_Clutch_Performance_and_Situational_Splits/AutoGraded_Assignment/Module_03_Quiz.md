@@ -42,12 +42,13 @@ C. Only during the regular season, not the playoffs
 D. Only on defense, never on offense
 
 **Q6.** [Numeric / short answer] What was Golden State's real defensive
-rating (DRtg) in clutch situations in this module's 2018 playoff sample?
+rating (DRtg) in clutch situations, computed from this module's real
+2017-18 regular-season play-by-play log?
 
 **Q7.** [Numeric / short answer] What was Kyrie Irving's real `Pr_c`
 (propensity to shoot in the clutch) in this module's Boston sample?
 
 **Q8.** [Short answer] In one or two sentences, explain why this module
-uses real 2018 playoff data instead of the textbook's own 2021-22
-Celtics/Warriors dataset, and name one real consequence that
-substitution had on the analysis.
+uses Golden State's real public 2017-18 regular-season play-by-play log
+instead of the textbook's own private 2021-22 Celtics/Warriors dataset,
+and name one real consequence that substitution had on the analysis.

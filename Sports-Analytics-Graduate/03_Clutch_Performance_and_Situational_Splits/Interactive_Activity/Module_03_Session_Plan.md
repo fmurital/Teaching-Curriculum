@@ -13,8 +13,10 @@ on a slide face.
   rule matters more here than a broadcast-style "felt tense" judgment
   (10 min).
 - Live in RStudio, I'll build the `TOPboxes()` input pipeline together
-  with you, including the methodological note on why we are using real
-  2018 playoff data instead of the textbook's own private file (20 min).
+  with you, including the methodological note on why we are using Golden
+  State's real full 2017-18 regular season instead of the textbook's
+  own private file, and why Boston's own split is built from only the
+  two real regular-season games between the two teams that year (20 min).
 - Discussion: I want a few of you to explain, in your own words, why the
   `oreb`/`dreb` indicators have to be built by hand rather than pulled
   directly from the raw data (15 min).

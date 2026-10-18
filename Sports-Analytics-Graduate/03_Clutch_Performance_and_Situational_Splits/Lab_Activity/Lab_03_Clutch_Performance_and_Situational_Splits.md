@@ -1,7 +1,9 @@
 # Lab 3: Clutch Performance and Situational Splits
 
-**Goal:** reproduce the textbook's clutch-splits methodology on real
-2018 NBA playoff play-by-play data, for two real teams, and use it to
+**Goal:** reproduce the textbook's clutch-splits methodology on
+Golden State's real full 2017-18 regular-season play-by-play log, for
+two real teams (Golden State's full season, and Boston's two real
+regular-season games against Golden State that year), and use it to
 evaluate real players' clutch performance.
 
 ## Setup
@@ -18,8 +20,10 @@ data(PbP.BDB)
 PbP <- PbPmanipulation(PbP.BDB)
 ```
 
-`PbP.BDB` is real, event-level play-by-play data for the entire 2018
-NBA playoffs.
+`PbP.BDB` is real, event-level play-by-play data for Golden State's
+entire 2017-18 regular season (any opponent's own numbers in this data
+are limited to the real games that opponent played against Golden
+State that year).
 
 ## Part 1: Build the variables `TOPboxes()` needs
 
@@ -124,15 +128,17 @@ print(cindex)
 
 ## Reflection (submit with your lab)
 
-9. This module uses playoff-only data (one real postseason) rather than
-   the textbook's own regular-season-plus-playoffs sample. In your own
-   words, what real tradeoff does that make, and how did it show up in
-   this lab (for example, in how many players cleared the clutch
-   shot-attempt threshold)?
+9. This module uses Golden State's real regular-season log rather than
+   the textbook's own private regular-season-plus-playoffs file, and
+   Boston's own split comes from only two real games rather than a full
+   season. In your own words, what real tradeoff does that make, and how
+   did it show up in this lab (for example, in how many players cleared
+   the clutch shot-attempt threshold)?
 
 ## Extension (optional, not graded)
 
-Pick a third real team from the 2018 playoffs (check
-`unique(PbP$team)`) and run the full Clutch-versus-General pipeline for
-that team. Report its real Gini shift and its most extreme `Diff`
-player.
+Pick a third real team from `unique(PbP$team)` (any other team Golden
+State played in 2017-18) and run the full Clutch-versus-General
+pipeline for that team, keeping in mind its sample will be limited to
+however many real games it played against Golden State that season.
+Report its real Gini shift and its most extreme `Diff` player.

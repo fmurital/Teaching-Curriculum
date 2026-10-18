@@ -31,26 +31,35 @@ public `BasketballAnalyzeR` package. This module reproduces the exact
 same methodology -- the same `PbPmanipulation()`, `TOPboxes()`,
 `fourfactors()`, and `inequality()` pipeline, and the same clutch
 indices from Zuccolotto et al. (2018) -- on real, freely available data
-instead: `BasketballAnalyzeR::PbP.BDB`, covering the entire real 2018
-NBA playoffs, still using the Celtics and the Warriors as the two case
-study teams. Every number in this module is real and independently
+instead: `BasketballAnalyzeR::PbP.BDB`, the real, event-level play-by-play
+log for Golden State's entire 2017-18 regular season. For Golden State
+itself that gives a full 82-game sample; for an opponent, `TOPboxes()`
+only sees that opponent's stats from the real games it actually played
+against Golden State that season. Boston is our second case-study team,
+and the two teams met exactly twice in the 2017-18 regular season
+(November 16, 2017 and January 27, 2018), so Boston's "General" and
+"Clutch" splits below are built from those two real games, not a full
+season. Every number in this module is real and independently
 reproducible by anyone who runs `Coding_Exercise/module3_clutch_splits.R`;
-it simply reflects a different, smaller, real sample (one postseason
-instead of a full regular season plus playoffs) than the textbook's own
-worked example. That difference is itself worth noticing: a smaller
-real sample is noisier, and this module's results show exactly that.
+it simply reflects a much smaller real sample for Boston specifically
+than the textbook's own full-season-plus-playoffs worked example. That
+difference is itself worth noticing: a two-game real sample is noisy,
+and this module's results show exactly that.
 
 ## Team-level splits: pace, rating, and the Four Factors
 
 Applying `fourfactors()` to the real Clutch-versus-General split for
 each team produces a genuinely different story for each. Boston's real
 offensive rating jumped from 97.4 (General) to 125.4 (Clutch) across
-their 2018 playoff run, while their defensive rating worsened slightly,
-from 108.3 to 111.7. Golden State's real split moved the other
-direction: their offensive rating dipped from 112.8 to 108.7 in the
-clutch, and their defensive rating worsened more noticeably, from 103.8
-to 115.4. Both of these are real teams that reached their conference's
-final round that postseason; neither pattern is a sign of a bad team.
+their two 2017-18 regular-season games against Golden State, while
+their defensive rating worsened slightly, from 108.3 to 111.7. Golden
+State's real split, built from their full 82-game season, moved the
+other direction: their offensive rating dipped from 112.8 to 108.7 in
+the clutch, and their defensive rating worsened more noticeably, from
+103.8 to 115.4. Boston's numbers come from an extremely small two-game
+sample and should be read as illustrative, not as a real claim about
+their season-long clutch performance; neither team's pattern is a sign
+of a bad team.
 It is a sign that "clutch" performance is not simply "the same team,
 playing the same way, under more pressure." It is a genuinely different
 situational split, and it moves differently for different teams.
