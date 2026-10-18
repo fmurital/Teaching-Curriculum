@@ -31,6 +31,3 @@ Textbook: Zuccolotto, P., Manisera, M., & Sandri, M. (2026). *Advanced Basketbal
 
 Quizzes, three course-wide assignments, a midterm project, and a final project. The final project also serves as the course's final exam -- there is no separate exam. See the [syllabus](00_Course_Admin/Syllabus.md) for weights and policies.
 
-## Status
-
-Modules are going up one at a time; each module's own README says whether it's built yet.

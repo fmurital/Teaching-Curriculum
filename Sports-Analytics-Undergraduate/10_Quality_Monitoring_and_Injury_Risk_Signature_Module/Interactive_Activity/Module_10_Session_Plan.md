@@ -31,4 +31,4 @@
 
 ## Before next class
 
-Lab 10, the Module 10 quiz, and the practice questions. This closes out the undergraduate course's ten-module sequence.
+Lab 10, the Module 10 quiz, and the practice questions. This closes out our ten-module sequence.

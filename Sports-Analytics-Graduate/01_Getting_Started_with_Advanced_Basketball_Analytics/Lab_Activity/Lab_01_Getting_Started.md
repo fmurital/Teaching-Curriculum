@@ -1,6 +1,6 @@
 # Lab 01: Getting Started with Advanced Basketball Analytics
 
-**Graduate — Sports Analytics.** Run this in RStudio, live, alongside the lecture. You need `BasketballAnalyzeR` installed (from the undergraduate course setup) plus `network`, `sna`, `GGally`, and `ggnetwork` for this lab's second half.
+**Graduate — Sports Analytics.** Run this in RStudio, live, alongside the lecture. You need `BasketballAnalyzeR` installed plus `network`, `sna`, `GGally`, and `ggnetwork` for this lab's second half.
 
 ## Part 1: Setup, the book's way
 
@@ -58,4 +58,4 @@ Confirm your `nodeStats` table shows Draymond Green leading the team in total as
 
 ## Before you leave
 
-Save your script. You will extend both pipelines in Homework Assignment 1.
+Save your script. You will extend both pipelines in Assignment 1.
