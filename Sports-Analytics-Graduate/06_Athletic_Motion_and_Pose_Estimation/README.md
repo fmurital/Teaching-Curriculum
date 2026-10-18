@@ -6,11 +6,7 @@
 
 ## Overview
 
-Computer vision and deep learning applied to athletic movement: CNNs, pose-estimation models such as MoveNet, and what crossover and shot mechanics look like in tracked motion data. First direct tie-in point for movement-based injury-risk indicators.
-
-## Status
-
-Not built yet. Modules are going up one at a time, alongside the undergraduate course, following `Sports-Analytics-Undergraduate/00_Course_Admin/Module_Build_Playbook.md` (its rules apply to this course too -- see that file's graduate-specific section).
+Computer vision and deep learning applied to athletic movement: how a convolutional neural network turns video into 17 real tracked body keypoints via MoveNet, what two real 2025-2026 peer-reviewed studies found when they validated markerless motion capture against lab-grade marker-based systems in basketball players, and an honest, real substitute analysis of shot-mechanics and ball-handling consistency across a real game, computed directly from real 2017-18 play-by-play data. First direct tie-in point for movement-based injury-risk indicators.
 
 ## Contents
 
