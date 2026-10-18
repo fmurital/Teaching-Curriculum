@@ -9,8 +9,9 @@
 Splitting real team and player performance by game situation (fewer
 than five minutes remaining, score within five points), reproducing the
 textbook's Chapter 3 clutch-splits methodology on real 2017-18 NBA
-playoff play-by-play data, using the Boston Celtics and Golden State
-Warriors as the two case-study teams.
+regular-season play-by-play data (Golden State's full 82-game season
+log), using Golden State and, in their two real regular-season meetings
+that year, the Boston Celtics as the two case-study teams.
 
 ## Contents
 
