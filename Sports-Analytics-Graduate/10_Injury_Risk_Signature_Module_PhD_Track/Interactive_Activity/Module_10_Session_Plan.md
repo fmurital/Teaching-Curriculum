@@ -31,4 +31,4 @@
 
 ## Before next class
 
-Lab 10, the Module 10 quiz, and the practice questions. This closes out the graduate course's ten-module sequence. Students considering the Final Project's advanced injury-detection option (see the Final Project materials) should come to office hours this week.
+Lab 10, the Module 10 quiz, and the practice questions. This closes out our ten-module sequence. Students considering the Final Project's advanced injury-detection option (see the Final Project materials) should come to office hours this week.

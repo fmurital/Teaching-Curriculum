@@ -14,7 +14,7 @@ This session plan follows the course's standard three-segment structure, with a 
 
 ## Segment B: Worked Example (about 60 minutes)
 
-- Demonstration (15 min): Live install and load `BasketballAnalyzeR` on the instructor's machine. Load `Pbox` and `Tbox`. Walk through `dim()` and `names()` together as a class.
+- Demonstration (15 min): Live install and load `BasketballAnalyzeR` on my machine. Load `Pbox` and `Tbox`. Walk through `dim()` and `names()` together as a class.
 - Practice Exercise (20 min): Students work through Lab 1 steps 1 through 6 on their own machines, with help available. This is the first time most students will have R and RStudio actually running, so budget real time for setup problems.
 - Demonstration (10 min): Live-code the points-per-game summary and the top-5 table.
 - Interactive Activity (10 min): Think-pair-share. Each pair predicts, before seeing the chart, which team they think had the most wins in the 2017-18 season and why. Then reveal the real chart.

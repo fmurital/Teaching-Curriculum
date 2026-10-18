@@ -5,12 +5,12 @@
 | Segment | Content | Target time |
 |---|---|---|
 | Announcements | Update the "What's Coming Up" slide (due dates, office hours, upcoming events) before class. Leave blank sections blank rather than guessing. | 5 min |
-| Outline + Learning Objectives | Frame the session against the undergraduate course and the semester ahead. | 10 min |
+| Outline + Learning Objectives | Frame the session against the semester ahead. | 10 min |
 | Segment I: Setup and a real dplyr pipeline | `pacman`/`conflicted` setup, live-code the top-scorers pipeline together, watch the dplyr video if the room needs the refresher, run the interactive rebounds variant. | 45 min |
 | Break | | 10 min |
 | Segment II: A real assist network | Live-code `assistnet()` for Golden State Warriors, discuss the 83%/54% Thompson/Durant split, watch the Draymond Green playmaking clip, run the debate activity (Draymond vs. Curry — who is more valuable to this offense?). | 45 min |
 | Break | | 10 min |
-| Segment III: Course direction and Homework 1 | "Not restricted to the textbook" framing, introduce the three signature-paper track for injury detection, walk through course structure (Lab/Homework/Quiz), hand out Homework Assignment 1, run the project-direction activity. | 40 min |
+| Segment III: Course direction and Homework 1 | "Not restricted to the textbook" framing, introduce the three signature-paper track for injury detection, walk through course structure (Lab/Assignment/Quiz), preview Assignment 1 (covers Modules 1-3, due after Module 3), run the project-direction activity. | 40 min |
 | Wrap-up | Summary, before-next-class checklist, references. | 15 min |
 
 **Discussion prompts to run live (do not put these on the slide face — they live here and in the slide speaker notes):**

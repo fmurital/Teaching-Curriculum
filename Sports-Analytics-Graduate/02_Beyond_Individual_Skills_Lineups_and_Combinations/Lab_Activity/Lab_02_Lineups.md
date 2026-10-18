@@ -55,4 +55,4 @@ Compare your lineup's Pace and Ratings to the two extremes from the lecture: the
 
 ## Before you leave
 
-Save your script and your lineup's network plot. You will extend this pipeline to a team of your own choosing in Homework Assignment 2.
+Save your script and your lineup's network plot. You will extend this pipeline to a team of your own choosing in Assignment 1.

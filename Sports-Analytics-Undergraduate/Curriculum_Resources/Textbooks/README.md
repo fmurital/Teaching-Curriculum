@@ -8,6 +8,3 @@ Chapter map: Part I -- Ch.1 Introduction, Ch.2 Data and Basic Statistical Analys
 
 Companion R package: `BasketballAnalyzeR` (CRAN), which bundles real NBA 2017-2018 data used throughout the course (`Pbox`, `Tbox`, `Obox`, `Tadd`, `PbP.BDB`).
 
-## Planned (Graduate Course)
-
-A second, more advanced textbook (working title *Advanced Basketball Data Science*, Sandri, Zuccolotto & Manisera) is expected for the graduate course. It will extend this same structure once it is available; the undergraduate course does not wait on it.

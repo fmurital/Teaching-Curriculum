@@ -117,7 +117,7 @@ same situational-split logic used here, splitting a data stream by game
 context and comparing distributions across the split, is structurally
 related to the workload and injury-risk monitoring methods this course
 returns to in Module 10. There, the "split" is not clutch-versus-general
-but healthy-versus-elevated-risk, built from the instructor's own
+but healthy-versus-elevated-risk, built from my own
 published control-chart methodology. If you are interested in a larger
 independent project connecting situational performance splits to
 athlete monitoring, this is a genuine methodological bridge worth

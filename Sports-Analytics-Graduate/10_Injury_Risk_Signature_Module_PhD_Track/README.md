@@ -1,6 +1,6 @@
 # Module 10: Injury Risk Signature Module (PhD Track)
 
-**Maps to:** Not from the course textbook -- built from the instructor's own published research program: Brown, Muritala & Haller (2026, *Research in Sports Medicine*, MLB pitcher reinjury) and Tention, Muritala, Frankel & Brown (2026, *Basketball Studies*, NBA player subsequent injury risk).
+**Maps to:** Not from the course textbook -- built from my own published research program: Brown, Muritala & Haller (2026, *Research in Sports Medicine*, MLB pitcher reinjury) and Tention, Muritala, Frankel & Brown (2026, *Basketball Studies*, NBA player subsequent injury risk).
 
 ## Overview
 

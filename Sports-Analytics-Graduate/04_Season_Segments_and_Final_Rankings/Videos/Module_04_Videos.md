@@ -22,6 +22,6 @@
   the time this was added; verify before assigning.
 
 No coding-tutorial video is assigned for this module, in keeping with
-the graduate course's video-engagement standard: this is not a coding
+this course's video-engagement standard: this is not a coding
 class, and live in-class coding covers the R side directly. The videos
 above are a real concept explainer and real game footage only.

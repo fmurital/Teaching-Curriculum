@@ -10,7 +10,7 @@
 | Break | | 10 min |
 | Segment II: Networks and shot diets per lineup | Live-code `assistnet()` for one lineup, discuss the Curry-hub pattern across Figures 2.1-2.4, shot-diet table discussion, "You Make The Rotation Call" activity. | 45 min |
 | Break | | 10 min |
-| Segment III: Pace, Ratings, Four Factors at the lineup level | Recap Four Factors formulas, live-code `fourfactors()`, discuss the real Pace/Rating extremes (Figure 2.13), Four Factors video refresher, "Revisit The Rotation Call" activity, workload/injury-track connection, hand out Homework 2. | 45 min |
+| Segment III: Pace, Ratings, Four Factors at the lineup level | Recap Four Factors formulas, live-code `fourfactors()`, discuss the real Pace/Rating extremes (Figure 2.13), Four Factors video refresher, "Revisit The Rotation Call" activity, workload/injury-track connection, preview Assignment 1 (covers Modules 1-3, due after this module). | 45 min |
 | Wrap-up | Summary, before-next-class checklist, references. | 15 min |
 
 **Discussion prompts to run live (not printed on the slide face):**
