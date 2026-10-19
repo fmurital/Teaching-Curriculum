@@ -1,10 +1,12 @@
 # Module 3: Clutch Performance and Situational Splits (graduate)
 # Methodology: Zuccolotto, Manisera & Sandri (2026), Advanced Basketball Data Science, Ch.3
 #   ("Drilling down on clutch splits"), reproduced on real data:
-#   BasketballAnalyzeR::PbP.BDB -- NBA 2017-18 playoffs, real play-by-play, 82 games, all 16
-#   playoff teams. Case study teams: Boston Celtics (mirrors the book's 3.1) and Golden State
-#   Warriors (mirrors the book's 3.2) -- the two teams that met in the 2018 Western/Eastern
-#   playoffs; GSW won the 2018 title.
+#   BasketballAnalyzeR::PbP.BDB -- Golden State Warriors' real, complete 2017-18 NBA
+#   regular-season play-by-play log (82 games), structured hub-and-spoke around Golden
+#   State. Case study teams: Golden State Warriors (mirrors the book's 3.2, full 82-game
+#   sample) and Boston Celtics (mirrors the book's 3.1), whose data here is limited to the
+#   two real regular-season games the two teams actually played against each other that
+#   season (November 16, 2017 and January 27, 2018).
 
 options(width = 120)
 library(BasketballAnalyzeR)
@@ -33,7 +35,7 @@ TOPPbP <- PbP %>%
 # ---- Clutch situation definition (identical to the textbook): < 5 min left, |score diff| <= 5 ----
 totalTime_c <- 2580
 scorediff_c <- 5
-AS_min <- 4  # lowered from the textbook's AS_min = 20 (full 82-game regular season) to fit a playoffs-only real sample
+AS_min <- 4  # lowered from the textbook's AS_min = 20 (full 82-game regular season) to fit Boston's much smaller real two-game sample against Golden State
 
 run_team <- function(Team) {
   TOPPbPc <- TOPPbP %>%

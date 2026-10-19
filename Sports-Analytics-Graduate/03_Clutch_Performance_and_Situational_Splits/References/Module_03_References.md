@@ -25,11 +25,12 @@ affects NBA performance asymmetrically.
 Zuccolotto, Manisera & Sandri. `BasketballAnalyzeR` (R package),
 `PbPmanipulation()`, `TOPboxes()`, `fourfactors()`, `inequality()`, and
 `bubbleplot()` functions, and the bundled `PbP.BDB` play-by-play dataset
-(2017-18 NBA playoffs). CRAN. The direct source of this module's team
-and player clutch splits.
+(Golden State Warriors' real, complete 2017-18 NBA regular-season
+play-by-play log). CRAN. The direct source of this module's team and
+player clutch splits.
 
 All team ratings, Four Factors values, Gini coefficients, and player
 clutch indices cited in this module's notes, lab, and slides were
-computed directly from the real 2017-18 NBA playoff play-by-play data
-described above and can be reproduced by running
+computed directly from the real 2017-18 NBA regular-season play-by-play
+data described above and can be reproduced by running
 `Coding_Exercise/module3_clutch_splits.R`.

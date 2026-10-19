@@ -15,7 +15,7 @@ D. A score difference of exactly 0, at any point in the game
    method?
 
 A. It uses simulated data instead of real data, which is legitimate because the formulas are unaffected by real versus simulated input
-B. It uses `BasketballAnalyzeR::PbP.BDB` (real 2017-18 NBA playoff play-by-play) instead of the textbook's private 2021-22 Celtics/Warriors file, applying the identical PbPmanipulation/TOPboxes/fourfactors/inequality pipeline to real, public, reproducible data
+B. It uses `BasketballAnalyzeR::PbP.BDB` (Golden State's real, complete 2017-18 NBA regular-season play-by-play log) instead of the textbook's private 2021-22 Celtics/Warriors file, applying the identical PbPmanipulation/TOPboxes/fourfactors/inequality pipeline to real, public, reproducible data
 C. It uses only Boston's data and drops Golden State entirely
 D. It uses 2022-23 regular season data instead of playoff data
 
@@ -73,6 +73,6 @@ D. A negative `Pr_c` alongside a positive `Diff`
    threshold represent?
 
 A. There is no tradeoff; lowering the threshold has no effect on the results
-B. A lower threshold includes players with less reliable, noisier clutch samples (as few as 4 total clutch shot attempts) in exchange for having any real player-level comparison at all for a team like Boston, whose smaller real playoffs-only sample would otherwise exclude nearly everyone
+B. A lower threshold includes players with less reliable, noisier clutch samples (as few as 4 total clutch shot attempts) in exchange for having any real player-level comparison at all for a team like Boston, whose real two-game regular-season sample against Golden State would otherwise exclude nearly everyone
 C. A lower threshold only affects Golden State's players, not Boston's
 D. A lower threshold guarantees every player on both rosters clears it
