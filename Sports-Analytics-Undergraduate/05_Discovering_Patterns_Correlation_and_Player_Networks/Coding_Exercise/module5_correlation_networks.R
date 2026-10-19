@@ -33,7 +33,7 @@ write.csv(round(cc$cor.mtx, 3), file.path(out_dir, "module5_correlation_matrix.c
 p_corr <- plot(cc)
 ggplot2::ggsave(file.path(out_dir, "module5_correlation_plot.png"), p_corr, width = 9, height = 8, dpi = 150)
 
-# ---- Part 2: Player assist networks, real 2018 playoff data ----
+# ---- Part 2: Player assist networks, real 2017-18 regular season data ----
 data(PbP.BDB)
 PbP <- PbPmanipulation(PbP.BDB)
 
