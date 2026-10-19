@@ -1,8 +1,9 @@
 # Lab 4: Shot Charts and Spatial Data
 
-**Goal:** build real shot charts from real 2018 NBA playoff play-by-play
-data, break shot selection into distance zones, and compare shot
-profiles across two real teams and two real players.
+**Goal:** build real shot charts from Golden State's real 2017-18
+regular-season play-by-play data, break shot selection into distance
+zones, and compare shot profiles across two real teams and two real
+players.
 
 ## Setup
 
@@ -18,8 +19,11 @@ data(PbP.BDB)
 PbP <- PbPmanipulation(PbP.BDB)
 ```
 
-`PbP.BDB` holds real, event-level play-by-play data for the entire 2018
-NBA playoffs: 82 games, every team that qualified, one row per event.
+`PbP.BDB` holds real, event-level play-by-play data for Golden State's
+entire real 2017-18 regular season: 82 games, one row per event. It is
+built hub-and-spoke around Golden State, so every other team's rows
+are limited to that team's own real regular-season meetings with
+Golden State that season.
 
 ## Part 1: Build shot-level coordinates
 
@@ -74,9 +78,9 @@ league_zone <- shots %>% group_by(zone) %>%
 print(league_zone)
 ```
 
-3. Which zone has the smallest share of all real 2018 playoff attempts?
-   Which has the highest real field goal percentage? Are they the same
-   zone?
+3. Which zone has the smallest share of all real attempts in this
+   module's sample? Which has the highest real field goal percentage?
+   Are they the same zone?
 
 ## Part 4: Two real teams, side by side
 
@@ -118,7 +122,7 @@ shotchart(data = lebron, x = "xc", y = "yc", z = "result2", scatter = TRUE)
 
 ## Extension (optional, not graded)
 
-Pick one more real 2018 playoff team from `PbP.BDB` (check
-`unique(shots$team)` for the full list) and build its own zone table and
-shot chart. Write two sentences comparing that team's shot profile to
+Pick one more real team from `PbP.BDB` (check `unique(shots$team)` for
+the full list of teams Golden State played that season) and build its
+own zone table and shot chart. Write two sentences comparing that team's shot profile to
 Houston's.

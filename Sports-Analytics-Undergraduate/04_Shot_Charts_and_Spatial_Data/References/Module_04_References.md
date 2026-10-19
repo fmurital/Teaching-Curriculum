@@ -8,7 +8,8 @@
 
 - Zuccolotto, Manisera & Sandri. `BasketballAnalyzeR` (R package),
   `shotchart()` function and the bundled `PbP.BDB` play-by-play dataset
-  (2017-18 NBA playoffs). CRAN. The direct source of this module's shot
+  (Golden State Warriors' real, complete 2017-18 NBA regular-season
+  play-by-play log). CRAN. The direct source of this module's shot
   charts, zone tables, and every computed number.
 
 - Digital Innovation and Transformation, Harvard Business School (2023).
@@ -19,6 +20,6 @@
 
 All zone tables, field goal percentages, points-per-shot figures, and
 shot charts cited in this module's notes, lab, and slides were computed
-directly from the real 2017-18 NBA playoff play-by-play data described
-above and can be reproduced by running
+directly from the real 2017-18 NBA regular-season play-by-play data
+described above and can be reproduced by running
 `Coding_Exercise/module4_shot_charts.R`.

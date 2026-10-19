@@ -10,8 +10,8 @@
   before we can chart them, live in RStudio, building the half-court
   centered coordinates together (15 min).
 - We'll build our first real shot chart together, Houston's 273 real
-  2018 playoff attempts, and look at where the makes and misses cluster
-  (20 min).
+  attempts from their three 2017-18 regular-season games against Golden
+  State, and look at where the makes and misses cluster (20 min).
 - I want you to turn to a partner and describe, out loud, what you see
   in the chart before I reveal the zone breakdown (10 min).
 
@@ -24,10 +24,10 @@
 - Short lecture: I'll walk through the real Houston-versus-Cleveland
   zone comparison and what "Moreyball" actually means as a real,
   data-driven shot-selection strategy, not just a nickname (10 min).
-- Small groups (3-4 students): each group gets one more real playoff
-  team from `PbP.BDB` and builds that team's own zone table, then
-  reports whether it looks more like Houston's or Cleveland's profile
-  (20 min).
+- Small groups (3-4 students): each group gets one more real team from
+  `PbP.BDB` (one of the teams Golden State played that season) and
+  builds that team's own zone table, then reports whether it looks more
+  like Houston's or Cleveland's profile (20 min).
 - Groups report out (5 min).
 
 **Break (10 minutes).**
