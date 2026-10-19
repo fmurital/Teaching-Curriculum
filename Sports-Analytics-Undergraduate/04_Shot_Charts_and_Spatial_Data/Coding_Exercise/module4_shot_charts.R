@@ -1,5 +1,8 @@
 # Module 4: Shot Charts and Spatial Data
-# Real data: BasketballAnalyzeR::PbP.BDB (NBA 2017-18 playoffs, 82 games, all 30 teams present in league; 16 playoff teams have full play-by-play)
+# Real data: BasketballAnalyzeR::PbP.BDB -- Golden State Warriors' real, complete 2017-18 NBA
+#   regular-season play-by-play log (82 games), structured hub-and-spoke around Golden State.
+#   Every other team's rows are limited to that team's own real regular-season meetings with
+#   Golden State that season (Houston: 3 games; Cleveland: 2 games).
 # Reproduces every number and chart used in Module 4 slides, notes, and lab.
 
 options(width = 120)
@@ -38,9 +41,9 @@ shots <- PbP %>%
     zone = factor(zone, levels = c("Rim (0-4 ft)","Short/Mid (5-14 ft)","Long Two (15-21 ft)","Three (22+ ft)"))
   )
 
-cat("Total field goal attempts (made+miss), 2018 playoffs:", nrow(shots), "\n")
+cat("Total field goal attempts (made+miss), Golden State's 2017-18 regular season:", nrow(shots), "\n")
 
-# ---- Team case study: Houston Rockets (65-win #1 seed, 2018 playoffs) ----
+# ---- Team case study: Houston Rockets (their 3 real 2017-18 regular-season games against Golden State) ----
 hou <- shots %>% filter(team == "HOU")
 cat("HOU attempts:", nrow(hou), " FG%:", round(100*mean(hou$made),1), "\n")
 
@@ -50,7 +53,7 @@ ggsave(file.path(out_dir, "module4_hou_scatter.png"), p_hou_scatter, width = 9, 
 p_hou_density <- shotchart(data = hou, x = "xc", y = "yc", type = "density-hexbin", nbins = 24)
 ggsave(file.path(out_dir, "module4_hou_density.png"), p_hou_density, width = 9, height = 8, dpi = 150)
 
-# ---- Contrast team: Cleveland Cavaliers (LeBron's last Cleveland playoff run, met HOU's conf.) ----
+# ---- Contrast team: Cleveland Cavaliers (their 2 real 2017-18 regular-season games against Golden State) ----
 cle <- shots %>% filter(team == "CLE")
 cat("CLE attempts:", nrow(cle), " FG%:", round(100*mean(cle$made),1), "\n")
 p_cle_scatter <- shotchart(data = cle, x = "xc", y = "yc", z = "result2", scatter = TRUE)
@@ -67,7 +70,7 @@ zone_tab <- shots %>%
 print(zone_tab)
 write.csv(zone_tab, file.path(out_dir, "module4_zone_table_hou_cle.csv"), row.names = FALSE)
 
-# ---- League-wide zone attempt share (all 2018 playoff shots) for context ----
+# ---- Zone attempt share across Golden State's full real season (all shots in this dataset) for context ----
 league_zone <- shots %>% group_by(zone) %>%
   summarise(attempts = n(), fgpct = round(100*mean(made),1), .groups="drop") %>%
   mutate(share = round(100*attempts/sum(attempts),1))

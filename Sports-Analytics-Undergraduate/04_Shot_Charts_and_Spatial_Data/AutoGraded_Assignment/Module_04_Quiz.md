@@ -16,9 +16,8 @@ B. Short/Mid
 C. Long Two
 D. Three
 
-**Q3.** [Multiple choice] In the real 2018 NBA playoff data used in this
-module, which zone had the smallest share of all field goal attempts
-leaguewide?
+**Q3.** [Multiple choice] In this module's real 2017-18 regular-season
+data, which zone had the smallest share of all field goal attempts?
 A. Rim (0-4 ft)
 B. Short/Mid (5-14 ft)
 C. Long Two (15-21 ft)
@@ -40,13 +39,14 @@ C. Both whether the shot went in and how many points it is worth
    (2 or 3) when it does
 D. Only the player's season shooting percentage
 
-**Q6.** [Numeric / short answer] In this module's real 2018 playoff
-sample, what percentage of Houston Rockets shots came from the rim or
-from three, combined?
+**Q6.** [Numeric / short answer] In this module's real sample (Houston's
+three 2017-18 regular-season games against Golden State), what
+percentage of Houston Rockets shots came from the rim or from three,
+combined?
 
 **Q7.** [Numeric / short answer] What was LeBron James's real field goal
-percentage at the rim in this module's sample (Cleveland vs. Houston,
-2018 playoffs)?
+percentage at the rim in this module's sample (Cleveland's two 2017-18
+regular-season games against Golden State)?
 
 **Q8.** [Short answer] In one or two sentences, explain why a team's
 overall field goal percentage alone does not tell you what that team's

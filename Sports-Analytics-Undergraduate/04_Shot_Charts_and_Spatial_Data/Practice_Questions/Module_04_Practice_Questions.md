@@ -19,8 +19,8 @@ B. Short/Mid (5-14 feet)
 C. Long Two (15-21 feet)
 D. Three (22 feet or more, with no upper bound)
 
-3. In the real 2018 playoff data, the long two converted at 41.7% (lower
-   than the rim's 64.4%) and, when it goes in, is worth the same two
+3. In this module's real 2017-18 regular-season data, the long two
+   converted at 41.7% (lower than the rim's 64.4%) and, when it goes in, is worth the same two
    points as a rim shot, with none of a three's extra point. What does
    this combination make the long two, in terms of points per shot?
 
@@ -29,10 +29,10 @@ B. The worst points-per-shot zone on the floor, since it has both a lower conver
 C. Equal in value to the three-point zone
 D. Impossible to evaluate without knowing who took the shot
 
-4. What percentage of the Houston Rockets' real 2018 playoff shots (in
-   this module's sample) came from the rim or from three, combined, and
-   how does that compare to Cleveland's combined rim-plus-three share of
-   about 66.0%?
+4. What percentage of the Houston Rockets' real shots (in this module's
+   sample, their three 2017-18 regular-season games against Golden
+   State) came from the rim or from three, combined, and how does that
+   compare to Cleveland's combined rim-plus-three share of about 66.0%?
 
 A. About 82.2% for Houston, clearly higher than Cleveland's 66.0%
 B. About 47.6% for Houston, close to Cleveland's 66.0%
