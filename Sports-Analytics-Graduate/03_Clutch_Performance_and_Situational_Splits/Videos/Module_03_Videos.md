@@ -13,10 +13,10 @@
   Finals) - Stephen Curry, Durant & Klay!"** (YouTube:
   https://www.youtube.com/watch?v=uSGKqaw-JJU). Real game footage of the three Golden State players whose real
   clutch indices this module computes (Curry, Durant, Thompson), from
-  the real 2018 NBA Finals -- a different, later part of that same
-  2017-18 season than this module's own regular-season data, not the
-  source of this module's data -- performing in exactly the kind of
-  high-pressure situations this module measures. Exact channel name and
+  the real 2018 NBA Finals. That is a different, later part of that
+  same 2017-18 season than this module's own regular-season data, not
+  the source of this module's data. It shows them performing in
+  exactly the kind of high-pressure situations this module measures. Exact channel name and
   runtime were not confirmed at the time this was added; verify before
   assigning.
 
