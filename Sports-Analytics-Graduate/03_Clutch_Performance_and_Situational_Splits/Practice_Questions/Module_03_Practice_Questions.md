@@ -53,9 +53,9 @@ D. `Pr_c` only measures defensive rebounding, not shot-taking
    distribution might be this much more concentrated in one player than
    Golden State's?
 
-A. Boston's roster construction that postseason concentrated shot-creation responsibility in one primary ball-handler more than Golden State's more distributed roster, combined with a smaller real sample size making any one player's share more extreme
+A. Boston's roster construction that season concentrated shot-creation responsibility in one primary ball-handler more than Golden State's more distributed roster, combined with a smaller real sample size making any one player's share more extreme
 B. `Pr_c` cannot legitimately exceed 100 for any real player, so this value must be an error
-C. Golden State simply did not play any clutch minutes that postseason
+C. Golden State simply did not play any clutch minutes that season
 D. Boston's players were all equally likely to shoot in the clutch, making 189.8 an average value
 
 7. Goldman & Rao (2012) argue that pressure affects NBA players

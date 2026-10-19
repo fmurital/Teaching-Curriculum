@@ -28,7 +28,7 @@ on a slide face.
 - We'll compute Golden State's and Boston's real Clutch-versus-General
   Four Factors together, live (20 min).
 - I'll walk through why Golden State's real defensive rating got
-  noticeably worse in the clutch that postseason, and Boston's real
+  noticeably worse in the clutch that season, and Boston's real
   offensive rating jumped, and push on what that does and does not tell
   us about either team (15 min).
 - Small groups: I'll ask each group to compute the Gini coefficient
