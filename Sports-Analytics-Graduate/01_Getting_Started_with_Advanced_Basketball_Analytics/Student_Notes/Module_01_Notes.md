@@ -18,7 +18,7 @@ What sets the level of the questions we ask in this course is this: box-score da
 
 We built a five-verb pipeline against the `Pbox` data frame bundled in `BasketballAnalyzeR` (2017-18 NBA season): filter to players with at least 500 minutes, mutate a per-game points column, select the columns we care about, arrange descending, and slice the top of the list.
 
-The real result (min. 500 minutes, 2017-18 season): James Harden (Houston Rockets) led at 30.4 PPG, followed by Anthony Davis (28.1), LeBron James (27.3), a tie between Giannis Antetokounmpo and Damian Lillard (26.9), and a tie between Kevin Durant and Stephen Curry (26.4), down to Russell Westbrook at 25.4.
+The real result (min. 500 minutes, 2017-18 season): James Harden (Houston Rockets) led at 30.4 PPG, followed by Anthony Davis (28.1), LeBron James (27.5), a tie between Giannis Antetokounmpo and Damian Lillard (26.9), and a tie between Kevin Durant and Stephen Curry (26.4), down to Russell Westbrook at 25.4.
 
 The point of this exercise is not the leaderboard. It is that a single points-per-game number collapses everything about how a player scores — volume, efficiency, who set it up — into one figure. That is exactly the gap the rest of the course exists to close.
 
