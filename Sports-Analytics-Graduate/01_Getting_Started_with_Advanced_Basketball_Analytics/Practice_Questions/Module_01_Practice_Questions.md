@@ -32,7 +32,7 @@ d. Filtering before computing PPG removes every player who is not on Golden Stat
    (players with at least 500 minutes), who led the league in points per
    game?
 
-a. LeBron James, 27.3 PPG
+a. LeBron James, 27.5 PPG
 b. James Harden, 30.4 PPG
 c. Anthony Davis, 28.1 PPG
 d. Russell Westbrook, 25.4 PPG
