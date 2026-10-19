@@ -6,7 +6,7 @@
 
 **Total: 100 points (4 problems, 25 points each)**
 
-This assignment uses the real 2017-18 play-by-play sample built into `BasketballAnalyzeR` (`PbP.BDB`), which covers that season's playoffs. Unless a problem tells you otherwise, use Russell Westbrook (Oklahoma City Thunder) -- a player we have not yet worked with together in Modules 4-6. Submit your script and any plots along with your written answers.
+This assignment uses the real 2017-18 play-by-play sample built into `BasketballAnalyzeR` (`PbP.BDB`), Golden State's real, complete 82-game 2017-18 regular season; every other team's rows are that team's own real regular-season games against Golden State specifically. Unless a problem tells you otherwise, use Russell Westbrook (Oklahoma City Thunder, whose real sample here is his team's four real 2017-18 regular-season games against Golden State) -- a player we have not yet worked with together in Modules 4-6. Submit your script and any plots along with your written answers.
 
 ## Problem 1 -- A real shot chart (25 points)
 
