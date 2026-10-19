@@ -11,10 +11,10 @@
 
 - **"Stephen Curry Full Game 1 Highlights vs Cavaliers 2018 NBA
   Finals - 29 Pts, 9 Ast, CLUTCH!"** (YouTube:
-  https://www.youtube.com/watch?v=vnVpvrywH80). Real game footage of Stephen Curry, from the real 2018 NBA Finals --
-  a different, later part of that same 2017-18 season than this
+  https://www.youtube.com/watch?v=vnVpvrywH80). Real game footage of Stephen Curry, from the real 2018 NBA Finals.
+  That is a different, later part of that same 2017-18 season than this
   module's own regular-season data, not the source of this module's
-  data -- useful for showing students what a real three-point-heavy
+  data. It is useful for showing students what a real three-point-heavy
   shot profile looks like in action on the floor. Exact channel name and runtime were not
   confirmed at the time this was added; verify both before assigning.
 
