@@ -1,6 +1,6 @@
-# Lab 02: Beyond Individual Skills — Lineups and Combinations
+# Lab 02: Beyond Individual Skills, Lineups and Combinations
 
-**Graduate — Sports Analytics.** Run this in RStudio, live, alongside the lecture. Needs `BasketballAnalyzeR`, `operators`, `pbapply`, `combinat`, `gridExtra`, `dplyr`, `network`, and `ggnetwork` (all from Module 01's setup).
+**Graduate, Sports Analytics.** Run this in RStudio, live, alongside the lecture. Needs `BasketballAnalyzeR`, `operators`, `pbapply`, `combinat`, `gridExtra`, `dplyr`, `network`, and `ggnetwork` (all from Module 01's setup).
 
 ## Part 1: Find real lineups for the 2021-22 Golden State Warriors
 

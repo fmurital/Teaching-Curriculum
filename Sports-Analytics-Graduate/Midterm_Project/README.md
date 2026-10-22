@@ -8,7 +8,7 @@
 
 ## Assignment
 
-Pick one real NBA team from the 2017-18 season (`Tbox`, `Obox`, `Pbox`) that you have not already used in Assignment 1, 2, or 3 this semester. Produce a written team profile report (roughly 4-6 pages, including your tables and plots) that goes further than the undergraduate course's parallel midterm: in addition to a full statistical profile, you must build and evaluate your own real predictive model and explicitly reason about its limitations. Your report must include all of the following sections, clearly labeled:
+Pick one real NBA team from the 2017-18 season (`Tbox`, `Obox`, `Pbox`) that you have not already used in Assignment 1, 2, or 3 this semester. Produce a written team profile report (roughly 4-6 pages, including your tables and plots) at graduate-level depth: in addition to a full statistical profile, you must build and evaluate your own real predictive model and explicitly reason about its limitations. Your report must include all of the following sections, clearly labeled:
 
 ### 1. Scoring overview (10 points)
 

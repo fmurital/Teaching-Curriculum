@@ -6,7 +6,7 @@
 
 **Total: 100 points (4 problems, 25 points each)**
 
-This assignment uses the real 2017-18 NBA season data built into `BasketballAnalyzeR` (`Pbox`, `Tbox`, `Obox`). Use the Denver Nuggets as your team unless a problem tells you otherwise -- a team we have not yet worked with together in Modules 1-3. This assignment goes one step further than the undergraduate course's parallel assignment: instead of a single bivariate relationship, you will compare a multi-predictor model against a simpler one and reason about why more predictors do not automatically mean a better model.
+This assignment uses the real 2017-18 NBA season data built into `BasketballAnalyzeR` (`Pbox`, `Tbox`, `Obox`). Use the Denver Nuggets as your team unless a problem tells you otherwise -- a team we have not yet worked with together in Modules 1-3. This assignment asks for graduate-level depth: instead of a single bivariate relationship, you will compare a multi-predictor model against a simpler one and reason about why more predictors do not automatically mean a better model.
 
 ## Problem 1 -- Concepts and the pipeline (25 points)
 

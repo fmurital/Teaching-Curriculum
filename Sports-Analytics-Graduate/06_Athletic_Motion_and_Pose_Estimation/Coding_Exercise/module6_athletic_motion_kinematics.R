@@ -15,7 +15,7 @@
 ## "Crossover" analyses ask (does a player's movement quality break down as fatigue accumulates
 ## over a real game) using data this course can responsibly access: BasketballAnalyzeR::PbP.BDB,
 ## the same real 2017-18 Golden State Warriors season-long play-by-play data already used in
-## graduate Modules 4 and 5 and undergraduate Module 6. Free throws are used as a real proxy for
+## this course's Modules 4 and 5. Free throws are used as a real proxy for
 ## shot-release mechanics (same distance, same motion, uncontested, every single time) and
 ## turnovers as a real proxy for ball-handling control. The module's Videos and References files
 ## point to the real published pose-estimation literature (MoveNet's own documentation, and two
