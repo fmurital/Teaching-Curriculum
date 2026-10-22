@@ -6,7 +6,7 @@
 
 ## Overview
 
-Control charts and process-capability (Cp) methods applied to athlete workload and injury data, built from Faruk Muritala's own published methodology (Muritala, Brown & Haller, 2026, *Research in Sports Medicine*, on MLB pitcher reinjury) and his NBA reinjury manuscript currently under review at *Basketball Studies*. The module is taught in explicit contrast with the acute:chronic workload ratio (ACWR) literature commonly used in sports science, alongside a paired paper on statistical process control for sport-science data quality (West et al., 2026, *Journal of Strength and Conditioning Research*) and documented critiques of the ACWR approach (Kanwal et al., 2025). This module is also the course's direct bridge to graduate, master's, and PhD level final-project work, where students can extend my own methodology.
+Control charts and process-capability (Cp) methods applied to athlete workload and injury data, built from Faruk Muritala's own published methodology (Muritala, Brown & Haller, 2026, *Research in Sports Medicine*, on MLB pitcher reinjury) and his NBA reinjury manuscript currently under review at *Basketball Studies*. The module is taught in explicit contrast with the acute:chronic workload ratio (ACWR) literature commonly used in sports science, alongside a paired paper on statistical process control for sport-science data quality (West et al., 2026, *Journal of Strength and Conditioning Research*) and documented critiques of the ACWR approach (Kanwal et al., 2025). This module is also the course's direct bridge to independent, thesis-level final-project work, where students can extend my own methodology.
 
 ## Contents
 

@@ -1,6 +1,6 @@
-# Module 02 Notes: Beyond Individual Skills — Lineups and Combinations
+# Module 02 Notes: Beyond Individual Skills, Lineups and Combinations
 
-**Graduate — Sports Analytics** | Textbook: Zuccolotto, Manisera, & Sandri (2026), Chapter 2.
+**Graduate, Sports Analytics** | Textbook: Zuccolotto, Manisera, & Sandri (2026), Chapter 2.
 
 ## The problem this module solves
 

@@ -1,12 +1,12 @@
 # Module 01 Notes: Getting Started with Advanced Basketball Analytics
 
-**Graduate — Sports Analytics** | Textbook: Zuccolotto, Manisera, & Sandri (2026), *Advanced Basketball Data Science: With Applications in R*, CRC Press.
+**Graduate, Sports Analytics** | Textbook: Zuccolotto, Manisera, & Sandri (2026), *Advanced Basketball Data Science: With Applications in R*, CRC Press.
 
 ## Where this course starts
 
 This course runs on R, RStudio, and the `BasketballAnalyzeR` package (Zuccolotto & Manisera, 2020), the same toolkit the textbook builds on throughout. If any part of that setup is unfamiliar, this session covers it from the ground up: installing the package, loading its bundled datasets, and running a first real pipeline against them.
 
-What sets the level of the questions we ask in this course is this: box-score data (Pace, the Four Factors, player efficiency) describes what happened in a game or a season, one number at a time. This course adds three things the textbook builds toward across its nine chapters: statistical and machine-learning models fit to that data (CART, random forests, logistic regression), play-by-play and lineup-level analysis instead of only season totals, and — starting with player tracking and pose estimation in later chapters — motion data that box scores never capture at all.
+What sets the level of the questions we ask in this course is this: box-score data (Pace, the Four Factors, player efficiency) describes what happened in a game or a season, one number at a time. This course adds three things the textbook builds toward across its nine chapters: statistical and machine-learning models fit to that data (CART, random forests, logistic regression), play-by-play and lineup-level analysis instead of only season totals, and, starting with player tracking and pose estimation in later chapters, motion data that box scores never capture at all.
 
 ## Two workflow habits from Chapter 1
 
@@ -20,7 +20,7 @@ We built a five-verb pipeline against the `Pbox` data frame bundled in `Basketba
 
 The real result (min. 500 minutes, 2017-18 season): James Harden (Houston Rockets) led at 30.4 PPG, followed by Anthony Davis (28.1), LeBron James (27.5), a tie between Giannis Antetokounmpo and Damian Lillard (26.9), and a tie between Kevin Durant and Stephen Curry (26.4), down to Russell Westbrook at 25.4.
 
-The point of this exercise is not the leaderboard. It is that a single points-per-game number collapses everything about how a player scores — volume, efficiency, who set it up — into one figure. That is exactly the gap the rest of the course exists to close.
+The point of this exercise is not the leaderboard. It is that a single points-per-game number collapses everything about how a player scores (volume, efficiency, who set it up) into one figure. That is exactly the gap the rest of the course exists to close.
 
 ## Worked example 2: a real assist network for the Golden State Warriors
 
@@ -30,10 +30,10 @@ The more interesting number was not total assists but the share of a player's ow
 
 ## The three papers this course's own track is built around
 
-This course is not restricted to the textbook. Where a real journal article sharpens or extends what the book covers — especially on this course's own signature track, injury-risk detection — it will be named on the slide and cited in these notes, not left as an unsourced aside:
+This course is not restricted to the textbook. Where a real journal article sharpens or extends what the book covers, especially on this course's own signature track, injury-risk detection, it will be named on the slide and cited in these notes, not left as an unsourced aside:
 
-- Muritala, Brown, & Haller (2026). *Research in Sports Medicine* — MLB pitcher reinjury.
-- West et al. (2026). *Journal of Strength and Conditioning Research* — statistical process control for sport-science data quality.
-- Kanwal et al. (2025) — a critique of the Acute:Chronic Workload Ratio (ACWR).
+- Muritala, Brown, & Haller (2026). *Research in Sports Medicine*, on MLB pitcher reinjury.
+- West et al. (2026). *Journal of Strength and Conditioning Research*, on statistical process control for sport-science data quality.
+- Kanwal et al. (2025), a critique of the Acute:Chronic Workload Ratio (ACWR).
 
-By the end of the course, the goal for every student — and the required deliverable for anyone pursuing the larger PhD-level project — is to find a real indicator of injury risk in data and connect it to a specific, cited model, using this track as the starting point rather than the ceiling.
+By the end of the course, the goal for every student, and the required deliverable for anyone pursuing the larger PhD-level project, is to find a real indicator of injury risk in data and connect it to a specific, cited model, using this track as the starting point rather than the ceiling.

@@ -4,7 +4,7 @@ Short, definition-level check of this module's key terms. 7 questions, 1 point e
 
 1. (Multiple choice) `pacman::p_load()` is used to:
    a. Visualize a network graph
-   b. Install a package only if missing, then load it — in one call
+   b. Install a package only if missing, then load it, in one call
    c. Resolve function-name conflicts between packages
    d. Convert play-by-play data into a usable format
 

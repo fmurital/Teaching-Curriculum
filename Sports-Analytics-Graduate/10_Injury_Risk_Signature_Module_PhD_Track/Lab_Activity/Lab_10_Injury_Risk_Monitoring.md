@@ -28,7 +28,7 @@ Today you are going to reproduce, step by step, the live demonstration I ran in 
 
 ## Reflection questions
 
-1. What is the single biggest difference between how this module's EWMA-CUSUM hybrid builds its baseline and how the undergraduate-level I-MR chart example (a simpler, single-player-only baseline) builds its own?
+1. What is the single biggest difference between how this module's EWMA-CUSUM hybrid builds its baseline and how a simpler I-MR control chart, built from a single player's own data alone with no EWMA smoothing and no CUSUM accumulation, builds its own?
 2. The basketball paper's testing-season specificity for Usage Rate was only 34.3%. In plain terms, what does that number mean for a team that decided to flag every player whose chart crossed the threshold for a mandatory medical evaluation?
 3. Why does a selection-bias risk in publicly available injury data (less severe injuries being under-reported) tend to inflate, rather than deflate, a method's apparent sensitivity and specificity?
 
