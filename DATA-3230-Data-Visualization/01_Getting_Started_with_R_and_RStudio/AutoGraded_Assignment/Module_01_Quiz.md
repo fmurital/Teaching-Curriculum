@@ -1,6 +1,6 @@
 # Module 1 Quiz (Autograded)
 
-This quiz is short and is meant to confirm you did the reading and the lab, not to be a difficult assessment. It is entered manually into D2L as a graded quiz; the format below gives the exact question text, type, and correct answer for each item so it can be entered directly.
+This quiz is short and is meant to confirm you did the reading and the lab, not to be a difficult assessment. It is entered manually into D2L as a graded quiz; the format below gives the exact question text, type, and correct answer for each item so it can be entered directly. Every question is multiple choice with exactly one correct option, so the entire quiz auto-grades with no instructor review.
 
 ## Question 1 (Multiple Choice, 1 point)
 
@@ -47,13 +47,23 @@ B. Tidy data, proposed by Hadley Wickham
 C. Exploratory data analysis, proposed by John Tukey
 D. The Bootstrap, proposed by Bradley Efron
 
-## Question 6 (Numeric, 1 point)
+## Question 6 (Multiple Choice, 1 point)
 
 According to Module 1's worked example, how many Ames neighborhoods had at least 20 sales in the housing data?
 
-## Question 7 (Short Answer, 1 point)
+A. 18
+B. 23
+C. 27
+D. 31
+
+## Question 7 (Multiple Choice, 1 point)
 
 Which Ames neighborhood had the highest average sale price in Module 1's worked example?
+
+A. NridgHt
+B. NoRidge
+C. StoneBr
+D. Somerst
 
 ## Question 8 (Multiple Choice, 1 point)
 
