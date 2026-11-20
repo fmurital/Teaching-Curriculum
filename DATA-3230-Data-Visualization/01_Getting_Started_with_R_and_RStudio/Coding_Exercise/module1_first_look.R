@@ -107,3 +107,48 @@ round(mean(lo$G3), 2)    # 10.13
 class(housing)
 nrow(housing)
 ncol(housing)
+
+# Four additional charts shown on the slides, all from this same real data.
+theme_deck <- theme_minimal(base_size = 13) + theme(plot.title = element_text(face = "bold"))
+
+# Sale price distribution, with mean/median marked (shows the right skew
+# referenced right after the summary() slide).
+p_price <- ggplot(housing, aes(x = sale_price)) +
+  geom_histogram(bins = 40, fill = "#27496D", color = "white") +
+  geom_vline(aes(xintercept = median(sale_price)), color = "#E4572E", linewidth = 1) +
+  geom_vline(aes(xintercept = mean(sale_price)), color = "#16213E", linewidth = 1, linetype = "dashed") +
+  scale_x_continuous(labels = scales::label_dollar()) +
+  labs(title = "Distribution of Sale Price, All 2,413 Homes", x = "Sale Price", y = "Number of Sales") +
+  theme_deck
+ggsave("module1_sale_price_distribution.png", p_price, width = 8, height = 5.3, dpi = 200)
+
+# Average living area by neighborhood, same chart recipe as the sale-price
+# chart (pairs with the gr_liv_area practice-exercise reveal).
+gla_avg$neighborhood <- factor(gla_avg$neighborhood, levels = gla_avg$neighborhood[order(gla_avg$gr_liv_area)])
+p_gla <- ggplot(gla_avg, aes(x = neighborhood, y = gr_liv_area)) +
+  geom_col(fill = "#E4572E") +
+  coord_flip() +
+  labs(title = "Average Living Area (sq ft) by Ames Neighborhood", x = NULL, y = "Average Above-Grade Living Area (sq ft)") +
+  theme_deck
+ggsave("module1_avg_living_area_by_neighborhood.png", p_gla, width = 8, height = 7, dpi = 200)
+
+# G3 (final grade) distribution for the second dataset.
+p_g3 <- ggplot(students, aes(x = G3)) +
+  geom_histogram(binwidth = 1, fill = "#27496D", color = "white") +
+  scale_x_continuous(breaks = seq(0, 20, 2)) +
+  labs(title = "Distribution of Final Grade (G3), All 395 Students", x = "Final Grade (0-20 scale)", y = "Number of Students") +
+  theme_deck
+ggsave("module1_g3_distribution.png", p_g3, width = 8, height = 5.3, dpi = 200)
+
+# G3 by study-time group, as a boxplot (the same hi/lo comparison above,
+# shown as a chart instead of two printed numbers).
+students$study_group <- factor(
+  ifelse(students$studytime > 2, "More than 2 hrs/week", "2 hrs/week or less"),
+  levels = c("2 hrs/week or less", "More than 2 hrs/week")
+)
+p_studytime <- ggplot(students, aes(x = study_group, y = G3, fill = study_group)) +
+  geom_boxplot(show.legend = FALSE) +
+  scale_fill_manual(values = c("#AEBBD1", "#E4572E")) +
+  labs(title = "Final Grade by Weekly Study Time", x = NULL, y = "Final Grade (G3, 0-20 scale)") +
+  theme_deck
+ggsave("module1_g3_by_studytime.png", p_studytime, width = 7, height = 5.3, dpi = 200)
