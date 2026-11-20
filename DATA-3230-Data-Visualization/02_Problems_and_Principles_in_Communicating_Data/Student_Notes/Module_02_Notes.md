@@ -6,7 +6,7 @@ Before we write another line of R, I want you to see, firsthand, why this course
 
 ## Same data, two outcomes
 
-I asked one simple real question of our housing data: how many of the 2,413 sales happened in each of the 23 neighborhoods with at least 20 sales? I built that answer two ways. First as a pie chart with all 23 slices. Then as a sorted horizontal bar chart. The pie chart buried the answer in a wheel of similarly colored, similarly sized wedges, and the legend ended up doing more work than the chart itself. The bar chart answered the same question in about two seconds: NAmes had the most sales, NPkVill the fewest, and you could see the whole ranking at a glance. The data never changed. The visualization did.
+I asked one simple real question of our housing data: how many of the 2,413 sales happened in each of the 23 neighborhoods with at least 20 sales? I built that answer two ways. First as a pie chart with all 23 slices. Then as a sorted horizontal bar chart. The pie chart buried the answer in a wheel of similarly colored, similarly sized wedges, and the legend ended up doing more work than the chart itself. The bar chart answered the same question in about two seconds: NAmes had the most sales with 395, NPkVill and Veenker were tied for fewest with 22 each, and you could see the whole ranking at a glance. The data never changed. The visualization did.
 
 ## The research process
 
