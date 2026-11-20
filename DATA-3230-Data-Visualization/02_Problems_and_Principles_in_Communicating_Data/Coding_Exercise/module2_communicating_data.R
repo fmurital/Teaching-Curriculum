@@ -132,6 +132,13 @@ by_year <- aggregate(sale_price ~ yr_sold, data = housing, FUN = mean)
 by_year$sale_price <- round(by_year$sale_price, 0)
 print(by_year)
 
+# The raw print above is a fine first look, but it is not something I
+# would ever put in front of a real audience: no thousands separator,
+# a bare column name, and no currency sign. This is the exact same
+# real numbers, finished for presentation.
+by_year$formatted <- scales::label_dollar(big.mark = ",")(by_year$sale_price)
+print(by_year[, c("yr_sold", "formatted")])
+
 # ------------------------------------------------------------------
 # Organizing Data (tidy format) illustration, using this same dataset
 # instead of a generic textbook example: six real rows, each one sale,
